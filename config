@@ -201,4 +201,4 @@ bindsym $mod+x exec --no-startup-id i3lock -c 000000
 exec --no-startup-id picom
 default_border none
 smart_gaps on
-
+exec --no-startup-id 'i3-msg "workspace 1; append_layout ~/.config/i3/workspace 1.json"'
